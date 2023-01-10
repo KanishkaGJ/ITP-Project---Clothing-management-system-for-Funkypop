@@ -39,3 +39,12 @@ app.use("/material", materialRouter);
 app.listen(PORT, () => {
     console.log(`Server is up and running on port: ${PORT}`);
 });
+
+const employeeRouter = require("./routes/employee.js");
+app.use("/employee",employeeRouter);
+
+const salaryRouter = require("./routes/salary.js");
+app.use("/salary",salaryRouter);
+
+const attenRouter = require("./routes/attendance.js");
+app.use("/attendance",attenRouter);
