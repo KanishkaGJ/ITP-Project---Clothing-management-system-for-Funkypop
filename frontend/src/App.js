@@ -7,6 +7,7 @@ import '../src/css/formStyles.css';
 import InvenHeader from './components/InvenHeader';
 import AddMaterial from './components/addMaterialForm';
 import MaterialTable from './components/materialTable';
+import UpdateMaterial from './components/updateMaterial';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           
           <Route path="/materials" element={<><InvenHeader /><MaterialTable /></>} />
           <Route path="/addmat" element={<><InvenHeader /><AddMaterial /></>} />
+          <Route path="/updatemat" element={<><InvenHeader /><UpdateMaterial/></>}/>
         </Routes>
       </div>
 
