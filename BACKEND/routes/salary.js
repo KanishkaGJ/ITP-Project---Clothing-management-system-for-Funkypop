@@ -60,7 +60,7 @@ router.route("/get/:id").get(async(req,res)=>{
 
 
 
-//update the details of employee
+//update the details of employee//
 router.route("/update/:id").put(async (req, res)=>{
     let userId = req.params.id;
     const {empID,daysOnLeave,otRate,otHours,basicSal, datE} = req.body;
