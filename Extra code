@@ -1,0 +1,12 @@
+// this is a section from the manifest.json file
+//a comma should be added above this code
+{
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
